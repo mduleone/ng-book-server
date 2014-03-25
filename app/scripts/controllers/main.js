@@ -6,8 +6,9 @@ angular.module('ngBookServerApp')
       $scope.awesomeThings = awesomeThings;
     });
   });
-  .controller('MainCtrl', function ($scope, $http) {
-    $http.get('api/check').success(function(validate) {
-      $scope.validate = validate;
-    });
-  });
+//angular.module('ngBookServerApp')
+//  .controller('MainCtrl', function ($scope, $http) {
+//    $http.get('api/check').success(function(validate) {
+//      $scope.validate = validate;
+//    });
+//  });
